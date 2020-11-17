@@ -1,0 +1,185 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+body {
+    background-color: #F0F0F0;
+    font: 14px sans-serif;
+    text-align: center;
+    margin: 0 !important;
+}
+
+header {
+    background-color: #990000;
+    margin: 0;
+}
+
+header > ul > li {
+    display: inline-block;
+}
+
+header > ul > li > a {
+    display: inline-block;
+    padding: 20px;
+    border-right: 1px solid #F0F0F0;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+header > ul > li > a:hover {
+    background-color: #FF0000;
+    text-decoration: none;
+    margin: 0;
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+.HeaderMenuHover {
+    background-color: #FF0000;
+}
+
+h1 {
+    font-size: 36px;
+    color: #666666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+table {
+    padding-top: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.TableRowHover th {
+    background-color: #990000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding: 2px 10px 2px 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.TableRowHover2 th {
+    background-color: #990000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding: 2px 10px 2px 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.Activity th {
+    background-color: #990000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding: 2px 10px 2px 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Activity th {
+    background-color: #990000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding: 2px 10px 2px 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+table.TableRowHover tr:not(:last-child):hover td {
+    background-color: #CCCCCC;
+}
+
+
+table.TableRowHover tr td:last-child:hover {
+    background-color: rgba(153, 0, 0, 0.3);
+}
+
+table.TableRowHover tr td:nth-last-child(2):hover {
+    background-color: rgba(153, 0, 0, 0.3);
+}
+
+table.TableRowHover tr.final td:nth-last-child(2):hover {
+    background-color: #FFFFFF;
+}
+
+table td {
+    background-color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+}
+
+.novaKlasa td {
+    background-color: #CCCCCC;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.novaKlasa a {
+    background-color: #CCCCCC;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.novaKlasa td:not(:last-child):hover {
+    background-color: blue;
+    background-color: rgba(153, 0, 0, 0.3);
+}
+
+.LoginWrapper{
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.Uspjeh {
+    width: 100%;
+    height: 50 px;
+    background-color: rgba(153, 0, 0, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20;
+}
+
+.form-control {
+    width: 100%;
+    max-width: 300px;
+}
+
+
